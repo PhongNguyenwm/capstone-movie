@@ -28,7 +28,7 @@ const phimSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder.addCase(getAllMovieThunk.fulfilled, (state, action) => {
-      console.log(action);
+      // console.log(action);
       state.arrMovie = action.payload;
     });
   },

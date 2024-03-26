@@ -17,7 +17,7 @@ const useRoutesCustom = () => {
           element: <HomePage />,
         },
         {
-          path: "sign-in",
+          path: "/sign-in",
           element: <SignIn />,
         },
       ],
